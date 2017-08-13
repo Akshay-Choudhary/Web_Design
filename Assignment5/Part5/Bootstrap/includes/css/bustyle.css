@@ -1,0 +1,38 @@
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+.hamburger{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+#searchInput {
+	width: 50%;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}

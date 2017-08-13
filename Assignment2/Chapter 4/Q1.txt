@@ -1,0 +1,8 @@
+The caption element should always be placed after the <table>
+
+For example:
+<table>
+<caption> Question no. 1 </caption>
+<tr>....
+
+- Anything written in the caption will always be displayed above the table in the browser.

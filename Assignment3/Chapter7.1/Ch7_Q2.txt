@@ -1,0 +1,4 @@
+2.What declaration causes a background image to be tiled only along the x-axis?
+
+Ans: The Following declaration causes a background image to be tiled only along the x-axis
+ background-repeat: repeat-x

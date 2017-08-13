@@ -1,0 +1,9 @@
+Q.1.If you want to reduce the spacing between letters, how will you do so? Provide an example
+    declaration.
+ANS-Declaration for reducing the space between letters.
+
+   .intro {
+          letter-spacing: 0.2em;
+          } 
+<p class=”intro”>Cheese is a remarkably versatile food, available in literally hundreds
+of varieties with different flavors and textures.</p>

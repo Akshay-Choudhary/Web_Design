@@ -1,0 +1,53 @@
+* {
+background-color : #99CCFF;
+}
+div > p{
+	border-style : solid;
+	border-width : 3px;
+	margin-left:50px;
+	border-color:red;
+	font-weight:bold;
+	font-size:50px;
+	background-color:yellow;
+}
+div + p{
+	background-color:white;
+}
+p[align]{
+	font-style:italic;
+	font-size: 70px;
+}
+a[target=_blank]{
+border-width:10px;
+background-color:orange;
+margin-left:50px;
+}
+[title~=s3]{
+	border-style : solid;
+	border-width : 5px;
+	border-color :black;
+}
+[lang|=en] {
+    font-style:italic;
+	font-size: 50px;
+	background-color:orange;
+}
+h3::after { 
+    content: "- ALERT!";
+}
+h3::before { 
+    content: "Be Aware-";
+}
+h4:first-child { 
+    background-color: red;
+}
+[type~=text]{
+	 background-color: white;
+}
+input:focus { 
+    background-color:blue;
+	color:#04B404;
+}
+p:lang(ab) { 
+    background: yellow;
+}

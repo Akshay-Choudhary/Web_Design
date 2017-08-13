@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sporting Goods | Login Page</title>
+<link href="sportinggoods.css" rel="stylesheet">
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+ <script>
+    
+$(document).ready(function(e) {
+$('#btnValidate').click(function() {
+var sEmail = $('#txtEmail').val();
+// Checking Empty Fields
+if ($.trim(sEmail).length == 0 || $("#psw").val()=="" ) {
+alert('All fields are mandatory');
+e.preventDefault();
+}
+if (validateEmail(sEmail)) {
+alert('Information has been stored you can proceed!!');
+}
+else {
+ alert('Invalid Email');
+e.preventDefault();
+}
+});
+});
+// Function that validates email address through a regular expression.
+function validateEmail(sEmail) {
+var filter = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
+if (filter.test(sEmail)) {
+return true;
+}
+else {
+return false;
+}
+}
+</script>
+<script>
+  $(function() {
+    $( document ).tooltip();
+  });
+   
+</script>
+</head>
+<body bgcolor="#e0e0e0">
+<div class="col-md-6 login-left">
+			  	 <h3>NEW CUSTOMERS</h3>
+				 <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+				 <a class="acount-btn" href="register.html">Create an Account</a>
+			   </div>
+			   <div class="col-md-6 login-right">
+			  	<h3>REGISTERED CUSTOMERS</h3>
+				<p>If you have an account with us, please log in.</p>
+				<form>
+				  <div class="ui-widget">
+					<label for="txtEmail">Email Address*</label></span>
+					<input type="text" id="txtEmail" title="Please Enter Your Email"> 
+				  </div>
+				  <div>
+					<span>Password<label>*</label></span>
+					<input type="text" id="psw" title="Please Enter Your Password"> 
+				  </div>
+				  <a class="forgot" href="#">Forgot Your Password?</a>
+				  <input type="submit" id='btnValidate' name="submit"form="form1" value="Login">
+			    </form>
+			   </div>	
+</body>
+</html>

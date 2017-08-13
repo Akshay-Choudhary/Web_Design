@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h1 class="text-center"><i><b>ASPCA Pet Health Insurance </b></i></h1>
+<h4 class="text-center">Claim Form : PLEASE INCLUDE YOUR PET'S MEDICAL RECORDS TO HELP EXPEDITE PROCESSING.</h4>
+<div class="container">
+
+<div class="modal-body row">
+	<div class="col-sm-6">
+		<form role="form">
+			<div class="form-group">
+				<label for="InputName">Name</label>
+				<input type="text" class="form-control" >
+			</div>
+			<div class="form-group">
+				<label for="InputName">Address</label>
+				<textarea class="form-control" rows="3" value='"+address+"' placeholder="Address"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="InputName">City, State, Zip :</label>
+				<input type='text' class='form-control' value='"+location+"' placeholder='City'>
+			</div>
+			<div class="form-group">
+				<label for="InputName">Phone Number</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Phone Number">
+			</div>
+			<div class="form-group">
+				<label for="InputName">E-mail</label>
+				<input type="text" class="form-control" id="InputName" placeholder="E-mail">
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-6">
+				<div class="form-group">
+					<label for="exampleInputName2">Start Time</label>
+					<input type="text" class="form-control" id="exampleInputTime" placeholder="Start">
+				</div>
+				</div>
+				<div class="col-sm-6">
+				<div class="form-group">
+					<label for="exampleInputEmail2">End Time</label>
+					<input type="text" class="form-control" id="exampleInputTime2" placeholder="End">
+				</div>
+				</div>
+			</div>
+			
+			<div class="refreshment">
+			<p><b><i><h3>Refreshments:</h3> Fenway, Kerr, & afterHOURS only:<br/>
+					 Chartwells Catering and Event Services (Call x2479)<br/>
+					 For more information on food policies, see the Student Organization Handbook</i></b></p>
+			</div><!--end of refreshment-->
+			
+			<form class="form-inline">
+			
+				<label>
+					<h4>Will there be merchandise sales?</h4>
+					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">Yes
+					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">No
+				</label><br>
+			
+			
+				<label>
+					<h4>Will there be a meet and greet</h4>
+					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">Yes
+					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">No
+				</label><br>
+				
+				<label>
+					<h4>Will there be a book signing</h4>
+					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">Yes
+					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">No
+				</label>
+			
+			</form><!-- end of radio button-->
+			
+			<div class="description">
+				<h3 class="text-center"><ul>Description of Event</ul></h3><br>
+				<h5 class="text-center"><p><u>(Please include names and order of Performers/Speakers; attach
+					an extra sheet if necessary)</u></p></h5>
+			</div><!-- end of description-->
+
+	</div><!--end of comlun1-->
+
+	<div class="col-sm-6">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="checkbox">
+				  <label>
+					<input type="checkbox" value="">
+					<h4>Blackman Auditorium</h4>
+				  </label>
+				</div>
+			</div>
+		    <div class="col-sm-6">
+				<div class="checkbox">
+				  <label>
+					<input type="checkbox" value="">
+					<h4>Fenway Center</h4>
+				  </label>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="checkbox">
+				  <label>
+					<input type="checkbox" value="">
+					<h4>Kerr Hall</h4>
+				  </label>
+				</div>
+			</div>
+		    <div class="col-sm-6">
+				<div class="checkbox">
+				  <label>
+					<input type="checkbox" value="">
+					<h4>afterHOURS</h4>
+				  </label>
+				</div>
+			</div>
+		</div>
+		
+		<form class="form-inline">
+		<div class="col-sm-6">
+		  <div class="form-group">
+			<label for="exampleInputName2"># of tickets to be printed: </label>
+			<input type="text" class="form-control" id="exampleInputName2" placeholder="">
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="form-group">
+			<label for="exampleInputEmail2">Free Event:</label>
+			<input type="text" class="form-control" id="exampleInputEmail2" placeholder=""><br>
+		  </div>
+		</div>
+		</form>
+		
+		<div>
+		<h3>Tickets are to be sold :</h3>
+		<form class="form-inline">
+		<div class="col-sm-6">
+		  <div class="form-group">
+			<label for="exampleInputName2">Internet Sales </label>
+			<input type="text" class="form-control" id="exampleInputName2" placeholder="">
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="form-group">
+			<label for="exampleInputEmail2">Reserved Seating</label>
+			<input type="text" class="form-control" id="exampleInputEmail2" placeholder=""><br>
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="form-group">
+			<label for="exampleInputName2">Ticket Center/Phone Orders </label>
+			<input type="text" class="form-control" id="exampleInputName2" placeholder="">
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="form-group">
+			<label for="exampleInputEmail2">General Admission</label>
+			<input type="text" class="form-control" id="exampleInputEmail2" placeholder=""><br>
+		  </div>
+		</div>
+		</form>
+		</div>
+	
+		
+		<div class="ticket">
+			<h3><b>Ticket Information</b></h3>(N/A for Kerr & afterHOURS):<br>
+Please indicate event name and sponsor information, as it will appear on
+the tickets on the three lines below. There are thirty characters of text
+(including spaces) on each line 
+			<textarea class="form-control" rows="3"></textarea>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			<h3><u>Event Type</u></h3>
+				<div class="col-sm-12">
+					<div class="checkbox">
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Lecture &nbsp;&nbsp;</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Conference</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Social/Reception</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Film/Video</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Rehearsal</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Concert/Performance</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Other(Please Specify)</h4>
+							<input type="text" class="form-control" placeholder="Others">
+						  </label>
+					</div>
+				</div>
+			</div> <!--end of event type col-->
+			
+			<div class="col-sm-6">
+			<h3><u>Setup Needs</u></h3>
+				<div class="col-sm-12">
+					<div class="checkbox">
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Podium &nbsp;&nbsp;</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Easel(s)</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>6ft Tables #</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Other(Please Specify)</h4>
+							<input type="text" class="form-control" placeholder="Others">
+						  </label>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+				<h3><u>Audio/Visual Needs</u></h3>
+				<div class="col-sm-12">
+					<div class="checkbox">
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Cordless Mic</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Lapel Mic</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Wired Mic</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Mic Floor Stand</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Extension Cord</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>VGA Cable (Laptop)</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>LCD System</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>CD</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>DVD</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>External Audio Source</h4>
+						  </label>
+						  
+					</div>
+				</div>
+			</div><!--Audio col end-->
+			
+			<div class="col-sm-6">
+			<h3><u>Setup Type (Fenway, Kerr, & afterHOURS only):</u></h3>
+				<div class="col-sm-12">
+					<div class="checkbox">
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Lecture &nbsp;&nbsp;</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Round Tables of 8</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Clear Room</h4>
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>ClassRoom</h4>
+							
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>See Diagram</h4>
+							(Attached?)<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">Yes
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">No
+						  </label>
+						  <label>
+							<input type="checkbox" value="">
+							<h4>Other(Please Specify)</h4>
+							<input type="text" class="form-control" placeholder="Others">
+						  </label>
+					</div>
+				</div>
+			</div><!-- setup type col end-->
+			</div>
+			
+			
+			
+			
+			
+			
+		 </div><!--end of second column-->
+</div><!--endof modal-body-->
+<div class="text-center">
+	<p><h3>I have read and understand the above rules as listed in the Event Information Agreement as well as all University policies, the laws of the
+		Commonwealth of Massachusetts. I also understand that it is my responsibility to share this information with my group. I understand that
+		if I don’t follow these rules, there may be disciplinary sanctions against me and my group.</h3> </p>
+</div>
+
+<div class="col-sm-12">
+		<form role="form">
+			<div class="form-group">
+				<label for="InputName">Name Of Student Group</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Name">
+			</div>
+			<div class="form-group">
+				<label for="InputName">Name Of Student Group Representative filling out the form</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Name">
+			</div>
+</div>
+
+<div class="col-sm-8">
+		<div class="form-group">
+				<label for="InputName">Signature</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Name">
+			</div>
+</div>
+
+<div class="col-sm-4">
+        <div class="form-group">
+				<label for="InputName">Date</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Date">
+			</div>
+</div>	
+
+<div class="col-sm-12">
+		<form role="form">
+			<div class="form-group">
+				<label for="InputName">Name Of Student Group</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Name">
+			</div>
+</div>
+
+<div class="col-sm-8">
+		<div class="form-group">
+				<label for="InputName">Signature</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Name">
+			</div>
+</div>
+			
+<div class="col-sm-4">
+        <div class="form-group">
+				<label for="InputName">Date</label>
+				<input type="text" class="form-control" id="InputName" placeholder="Date">
+			</div>
+</div>
+<button type="submit" class="btn btn-default"><div class="text-center">Submit</button>	
+</div>	
+</form>
+</body>
+</html>

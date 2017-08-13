@@ -1,0 +1,20 @@
+Q.5.If you want to preserve line breaks and spacing as formatted in the source code, what CSS
+declaration will you use?
+Ans-For preserving line breaks and spacing as formatted in the source code we will use the following css declaration.
+
+code {
+white-space: pre;
+}
+
+<code>
+&lt;script type=”text/javascript”&gt;
+    document.documentElement.className = ‘js’;
+&lt;/script&gt;
+</code>
+
+
+-The Output of the above will be:
+
+<script type=”text/javascript”>;
+   document.documentElement.className = ‘js’;
+</script>

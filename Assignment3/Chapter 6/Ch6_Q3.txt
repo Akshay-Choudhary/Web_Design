@@ -1,0 +1,3 @@
+3. When indenting text in a paragraph, how is a percentage value calculated?
+
+Ans: Percentage value is calculated from the percentage value of parent element when indenting text in paragraph.

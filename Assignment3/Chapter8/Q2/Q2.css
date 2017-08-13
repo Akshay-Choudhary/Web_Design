@@ -1,0 +1,27 @@
+body {
+  background-color:#9F81F7;
+  font-family:arial, verdana, sans-serif;
+  font-size:12px;}
+
+div {
+  background-color:#ffffff;
+  padding:10px;
+  border-style:ridge; border-width:4px; border-color:#999999;
+  width:300px;}
+
+div.page1 {
+  position:absolute;
+  top:70px;
+  z-index:2;
+  background-color:#ffffff;}
+
+div.page2 {
+  position:absolute;
+  top:170px; left:100px;
+  z-index:3;}
+
+div.page3 {
+  position:absolute;
+  top:270px; left:200px;
+  z-index:1;
+  background-color:#ffffff;}

@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="sportinggoods.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<meta name="google-signin-client_id" content="294364780956-3p9cllajd18osgllc5spgtljcei1s80p.apps.googleusercontent.com">
+	<script>
+		function onSignIn(googleUser) {
+		var profile = googleUser.getBasicProfile();
+		console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+		console.log('Name: ' + profile.getName());
+		console.log('Image URL: ' + profile.getImageUrl());
+		console.log('Email: ' + profile.getEmail());
+		}
+	</script>
+	<script>
+	function signOut() {
+	  var auth2 = gapi.auth2.getAuthInstance();
+	  auth2.signOut().then(function () {
+		console.log('User signed out.');
+	  });
+}
+</script>
+	<script>
+	google.load("jquery","1.4.2");
+	
+	google.setOnLoadCallback(function(){
+	
+		$('#link2').click(function(){
+		
+		$('#header').load('test.html');
+		});
+		}
+	</script>
+	
+	<!-- <script type="text/javascript">
+	function createXMLHttpRequest() {
+	var xmlHttp;
+if (window.ActiveXObject) {
+xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+else if (window.XMLHttpRequest) {
+xmlHttp = new XMLHttpRequest();
+}
+}
+function ajax() {
+alert("hiiiiiiiii");
+createXMLHttpRequest();
+xmlHttp.onreadystatechange = handleStateChange;
+xmlHttp.open("GET", "test.html", true);
+xmlHttp.send();
+}
+function handleStateChange() {
+if(xmlHttp.readyState == 4) {
+document.getElementById('empty').innerHTML = xmlHttp.responseText;
+}
+}
+</script> -->
+	
+</head>
+<body>
+	<header id="header"><!--header-->
+		<div class="header-top"><!--header_top-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i> +10236548522</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> sporting@goods.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--End of Header Top-->
+		
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img id="arsenal" src="images/home/arsenal.png" alt="" /><i><h2>Gunner's Sporting Goods</h2></i></a>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+								<li><input type="button" class="" data-onsuccess="onSignIn">Login</a></li>
+								<li><a href="#" onclick="signOut()">Sign out</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div><!--end of header-middle-->
+		
+		<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div> 
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html" class="active">Home</a></li>
+								<li class="dropdown"><a href="#">Exercise And Fitness<i class="fa fa-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="fitness.html">Fitness Accessories</a></li>
+										<li><a href="aerobic.html">Aerobic Training Machine</a></li> 
+										
+                                    </ul>
+                                </li> 
+								<li class="dropdown"><a href="#">Cricket<i class="fa fa-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="bats.html">Bats</a></li>
+										<li><a href="balls.html">Balls</a></li>
+										<li><a href="gloves.html">GLoves</a></li>
+                                    </ul>
+                                </li> 
+								<li class="dropdown"><a href="#">Badminton<i class="fa fa-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="bats.html">Racquets</a></li>
+										<li><a href="balls.html">Shoes</a></li>
+										
+                                    </ul>
+                                </li> 
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Search"/>
+							<button class="btn btn-default" id="features_items" type="submit" onclick="ajax()"><i class="glyphicon glyphicon-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--end of header-bottom-->
+	</header><!--end of header-->
+	
+	<slider><!--Start of Slider-->
+	<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+	  <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+	 <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="images/home/Capture1.PNG" alt="Chania" width="1300" height="500">
+        
+      </div>
+	  
+	  <div class="item">
+        <img src="images/home/bat.jpg" alt="Chania" width="1300" height="500">
+        
+      </div>
+    
+      <div class="item">
+        <img src="images/home/nikeshoes.png" alt="Flower" width="1300" height="500">
+        
+      </div>
+	  
+	  
+	  <div class="item">
+        <img src="images/home/adidadfootball.jpg" alt="Chania" width="1300" height="500">
+        
+      </div>
+  
+    </div>
+	
+	 <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</slider><!--End of Slider-->
+
+<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="left-sidebar">
+						<h2>Category</h2>
+						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Sportswear
+										</a>
+									</h4>
+								</div>
+								<div id="sportswear" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Nike </a></li>
+											<li><a href="#">Under Armour </a></li>
+											<li><a href="#">Adidas </a></li>
+											<li><a href="#">Puma</a></li>
+											<li><a href="#">ASICS </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#mens">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Mens
+										</a>
+									</h4>
+								</div>
+								<div id="mens" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Fendi</a></li>
+											<li><a href="#">Guess</a></li>
+											<li><a href="#">Valentino</a></li>
+											<li><a href="#">Dior</a></li>
+											<li><a href="#">Versace</a></li>
+											<li><a href="#">Armani</a></li>
+											<li><a href="#">Prada</a></li>
+											<li><a href="#">Dolce and Gabbana</a></li>
+											<li><a href="#">Chanel</a></li>
+											<li><a href="#">Gucci</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#womens">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Womens
+										</a>
+									</h4>
+								</div>
+								<div id="womens" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Fendi</a></li>
+											<li><a href="#">Guess</a></li>
+											<li><a href="#">Valentino</a></li>
+											<li><a href="#">Dior</a></li>
+											<li><a href="#">Versace</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Kids</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Fashion</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Households</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Interiors</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Clothing</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Bags</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Shoes</a></h4>
+								</div>
+							</div>
+						</div><!--/category-products-->
+					
+						<div class="brands_products"><!--brands_products-->
+							<h2>Brands</h2>
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+									<li><a href="#"> <span class="pull-right">(50)</span>Acne</a></li>
+									<li><a href="#"> <span class="pull-right">(56)</span>Grüne Erde</a></li>
+									<li><a href="#"> <span class="pull-right">(27)</span>Albiro</a></li>
+									<li><a href="#"> <span class="pull-right">(32)</span>Ronhill</a></li>
+									<li><a href="#"> <span class="pull-right">(5)</span>Oddmolly</a></li>
+									<li><a href="#"> <span class="pull-right">(9)</span>Boudestijn</a></li>
+									<li><a href="#"> <span class="pull-right">(4)</span>Rösch creative culture</a></li>
+								</ul>
+							</div>
+						</div><!--/brands_products-->
+						
+						<div class="price-range"><!--price-range-->
+							<h2>Price Range</h2>
+							<div class="well text-center">
+								 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
+								 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+							</div>
+						</div><!--/price-range-->
+						
+						<div class="shipping text-center"><!--shipping-->
+							<img src="images/home/shipping.jpg" alt="" />
+						</div><!--/shipping-->
+						<div id="empty"></div>
+					</div>
+				</div>
+				
+				<div class="col-sm-9 padding-right" id="productstart"><!--Start of  Products-->
+					
+		
+				<h3 class="m-1">New Products</h3>
+				 <div class="section group">
+				<div class="col-sm-4 span_1_of_3">
+					 <a href="preview.html"><img src="images/home/pics1.jpg" alt="" /></a>
+					 <h2>Workout Gloves </h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$20.87</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal1">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal1" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics1.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics2.jpg" alt="" /></a>
+					 <h2>Wrist Band </h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$8.75</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal2">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal2" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics2.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics3.jpg" alt="" /></a>
+					 <h2>Tennis Cap </h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$9.00</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal3">Add to Cart</a></h4>
+									<!--Modal-->
+										<div class="modal fade" id="myModal3" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics3.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				
+			</div>
+			   <div class="section group">
+				<div class="col-sm-4 span_1_of_3">
+					 <a href="preview.html"><img src="images/home/pics4.jpg" alt="" /></a>
+					 <h2>Cricket Kit</h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$200.87</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal4" role="dialog">
+										<div class="modal-dialog4">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics4.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics5.jpg" alt="" /></a>
+					 <h2>Gloves</h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$88.75</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal5">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal5" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics5.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics6.jpg" alt="" /></a>
+					 <h2>Rugby Ball </h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$19.00</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal6">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal6" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics6.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				
+			</div>
+			   <h3 class="m-2">Top Products</h3>
+			    <div class="section group">
+				<div class="col-sm-4 span_1_of_3">
+					 <a href="preview.html"><img src="images/home/pics7.jpg" alt="" /></a>
+					 <h2>Helmet </h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$20.87</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal7">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal7" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics7.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics8.jpg" alt="" /></a>
+					 <h2>Cricket Bat</h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$150.75</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal8">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal8" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics8.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics9.jpg" alt="" /></a>
+					 <h2>Football Studds </h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$59.00</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal9">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal9" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics9.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				
+			</div>
+			    <h3 class="m-2">Sale Products</h3>
+			    <div class="section group">
+				<div class="col-sm-4 span_1_of_3">
+					 <a href="preview.html"><img src="images/home/pics10.jpg" alt="" /></a>
+					 <h2>Puma Backpack </h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$20.87</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal10">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal10" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics10.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics11.jpg" alt="" /></a>
+					 <h2>Nike Cap </h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$8.75</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal11">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal11" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics11.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="col-sm-4 span_1_of_3">
+					<a href="preview.html"><img src="images/home/pics12.jpg" alt="" /></a>
+					 <h2>Adidas Football </h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">$9.00</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="" data-toggle="modal" data-target="#myModal12">Add to Cart</a></h4>
+										<!--Modal-->
+										<div class="modal fade" id="myModal12" role="dialog">
+										<div class="modal-dialog">
+											<!--Modal Content-->
+											<div class="modal-content">
+												<div class="modal-header">
+												  <button type="button" class="close" data-dismiss="modal">&times;</button>
+												  <h4 class="modal-title">Modal Header</h4>
+												</div>
+												<div class="modal-body">
+												  <p><img src="images/home/pics12.jpg"</p>
+												  <div id="description">
+													<p>This is an online brainstorming tool I made that generates random words.
+														It should help spark your creative imagination if you're looking to think up a domain name, a band name, a project name or whatever.
+														Right now it generates 6 random words by default but you can change that to generate anywhere from two to ten words.
+														For band names and projects, I find that setting it to three or four words gives you optimal results to work with.</p>
+												  </div>
+												</div>
+												<div class="modal-footer">
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											 </div>
+										</div>
+										</div>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li><a href="#" id="link2">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+				
+			</div>
+			
+			  </div><!--End Of Products-->
+			  
+			</div><!--End of Row-->
+			<div class="row">
+				<div style="background-color:grey">
+				<div class="info" > 
+					<div class="col-sm-3 span_1_of_4">
+						<h3>Our Info</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
+					<div class="col-sm-3 span_1_of_4">
+						<h3>Latest-News</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<div class="col-sm-3 span_1_of_4">
+						<h3>Store Location</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<h3>Order-online</h3>
+						<p>080-1234-56789</p>
+						<p>080-1234-56780</p>
+					</div>
+					<div class="col-sm-3 span_1_of_4 footer-lastgrid">
+						<h3>News-Letter</h3>
+						<input type="text"><input type="submit" value="go" />
+						<h3>Follow Us:</h3>
+						 <ul>
+							<li><a href="#"><img src="images/twitter.png" title="twitter" />Twitter</a></li>
+							<li><a href="#"><img src="images/facebook.png" title="Facebook" />Facebook</a></li>
+							<li><a href="#"><img src="images/rss.png" title="Rss" />Rss</a></li>
+						 </ul>
+					</div>
+				</div>
+			</div>
+
+			</div><!--end of second row-->
+			
+		</div><!--End Of Container-->
+</section>
+<	
+<div class="footer"><!--Start Of Footer-->
+			<div class="wrap">
+					<div class="copy-right">
+						<p>Mobilestore  &#169	 All Rights Reserved | Design By <a href="http://w3layouts.com/">W3Layouts</a></p>
+					</div>
+			</div>
+</div><!--End Of Footer-->
+</body>
+</html>

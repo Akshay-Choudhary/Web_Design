@@ -1,0 +1,3 @@
+4. If you wanted to offset an image ten pixels from the left and ten pixels from the top, what
+declaration would you use?
+Ans: background-position: left 10px top 10px;

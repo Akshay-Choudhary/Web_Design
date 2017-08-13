@@ -1,0 +1,5 @@
+5.If you wanted a background image to scroll with the document, what declaration would you use?
+Ans: The following declaration would be used to scroll background image along with the document.
+{
+ background-attachment: scroll;
+}

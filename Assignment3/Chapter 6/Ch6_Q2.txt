@@ -1,0 +1,11 @@
+Q.2.How do you remove the underlines from links but restore the underlines when the links are
+focused on or hovered over?
+ANS-Declaration for restoring underlines when the links are focused on or hovered over.
+
+a:link {
+text-decoration: none;
+}
+a:focus,
+a:hover {
+text-decoration: underline;
+}

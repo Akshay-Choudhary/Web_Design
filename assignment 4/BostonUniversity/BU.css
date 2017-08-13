@@ -1,0 +1,119 @@
+.wrapper{
+	margin: auto;
+	width: 1028px;
+	height:1250px;
+	background-color: white;
+	font-family:Tahoma,Geneva;
+	font-size:14px;
+	border: 1px solid #999;
+}
+.heading{
+	height:65px;
+	background-color:white;
+	text-align: left;
+	padding-top:15px;
+    padding-bottom: 15px;
+	padding-left:5px;
+color:#800000;
+	
+}
+.heading1{
+	height:35px;
+	float:left;
+	text-align: left;
+	padding-top:20px;
+    	
+}
+.heading2{
+	height:35px;
+	float:right;
+	text-align: right;
+    padding-top:55px;
+	padding-right:5px;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+}
+.li1{
+	padding-top:10px;
+	color:white;
+	margin-right:10px;
+	font-size:20px;
+}
+.li2{
+	color:white;
+	padding-left:5px;
+	font-size:15px;
+}
+
+
+li {
+    display: inline;
+}
+.menu1{
+	background-color:black;
+    color:white;
+    height:50px;
+    margin-top:5px;	
+}
+.col1{
+	float:left;
+	width:250px;
+	height:520px;
+	border:1px solid black;
+	margin-right:4px;
+	margin-left:4px;
+}
+.col2{
+	float:left;
+	width:250px;
+	height:520px;
+	border:1px solid black;
+	margin-right:4px;
+}
+.col3{
+	float:left;
+	width:250px;
+	height:520px;
+	border:1px solid black;
+	margin-right:4px;
+}
+.col4{
+	float:left;
+	width:250px;
+	height:520px;
+	border:1px solid black;
+	margin-right:4px;
+}
+#alumni{
+	background-color:#A4A4A4;
+	padding-top:0px;
+	border:1px solid black;
+	color:white;
+}
+.footer{
+	background-color:white;
+}
+.img{
+	
+	 float:left;
+	 padding-left:20px;
+	 padding-top:10px;
+	 height:100px;
+	 
+}
+.link{
+	
+	 float:left;
+	 padding-left:20px;
+	 padding-top:10px;
+	 
+}
+.follow{
+	 float:left;
+	 padding-left:20px;
+	 padding-top:10px;
+	 }

@@ -1,0 +1,9 @@
+7. Write a declaration that contains all five background properties in one.
+Ans: 
+
+background : background-color background-image background-repeat background-attachment background-position;
+
+For Eg : 
+
+        background : #DEDEDE url(bg-page.png) repeat-x fixed bottom right;
+

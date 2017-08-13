@@ -1,0 +1,4 @@
+-I would save Figure 3-26 as GIF since the figure has sharp edges and inorder to have smaller file size for such an image it is a good option to save it in gif format.
+
+
+-The second figure 3-27 should be stored as JPEG since it is a photographic image and .jpg is a good extension for such images inorder to have small file size.

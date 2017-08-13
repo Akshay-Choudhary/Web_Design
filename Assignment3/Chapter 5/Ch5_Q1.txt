@@ -1,0 +1,3 @@
+Q.1.Why aren’t the values of the font-weight property 100 through 900, bolder, and lighter used
+in real-world web design?
+-Because in the real world web design, only two values matter in the font-weight property that is normal and bold hence the values such as 900,bolder and lighter are not used as well as this font values are not supported by majority of web browers.

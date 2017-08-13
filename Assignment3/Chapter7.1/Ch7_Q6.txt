@@ -1,0 +1,4 @@
+6. When a background image is said to be “fixed,” what HTML element is the background image position relative to?
+
+Ans: When the fixed keyword is provided, the background image’s position is
+relative to the <body>element of HTML.

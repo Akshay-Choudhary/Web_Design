@@ -1,0 +1,4 @@
+1.What are two properties that you can use to specify a background color in a web page?
+
+Ans: The two properties that you can use to specify a background color in a web page are background-color property with values <color> and transparent
+

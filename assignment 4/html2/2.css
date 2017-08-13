@@ -1,0 +1,210 @@
+.main{
+	margin: auto;
+	font-family:"Times New Roman", Georgia, Serif;
+	width: 850px;
+	height: 805px;
+	font-size:14px;
+	border: 1px solid black;
+	
+}
+li.button{
+	display  :inline;
+
+	margin-right:5px;
+}
+.buttons{
+	margin-left:-200px;
+	float:left;
+	margin-top:20px;
+}
+#yellow{
+	background-color:yellow;
+	color:black;
+}
+#orange{
+	background-color:orange;
+	color:black;
+}
+#green{
+	background-color:green;
+	color:black;
+}
+#blue{
+	background-color:blue;
+	color:black;
+}
+
+div #heading{
+float:left;
+margin-left: 20px;
+height :40px:
+width:450px;
+color : red;
+}
+div #right{
+	padding-top:0px;
+    float : right;
+    margin-right :10px;
+    width :360px;
+}
+ul{
+	
+	list-style-type: none;
+    display :inline;
+}
+li.info1{
+	padding-top:20px;
+	display  :inline;
+	margin-right:5px;
+}
+div.bulletin2{
+	margin-top:60px;
+	background-color : blue;
+	height:50px;
+	
+}
+div #search{
+	padding-top : 5px;
+	float :right;
+	margin-right : 20px;
+}
+div.bulletin3{
+	margin-top : 10px;
+	height  :40px;
+}
+div #info1{
+	float:left;
+	
+}
+div #info2{
+	float : right;
+	margin-right : 10px;
+
+}
+div.bulletin4{
+	margin-top : 5px;
+	height : 100px;
+	margin-bottom :25px;
+	
+}
+div #left{
+	float : left;
+	width : 180px;
+	
+}
+
+li.leftlist1{
+	border:2px solid red;
+	margin-top:2px;
+	color : white;
+	
+}
+
+img.b{
+float : right;
+}
+div #r{
+	float : left;
+	width : 630px;
+	margin-left : 10px;
+}
+	
+div #right1{
+float:left;
+}
+div #r1{
+	float:left;
+	
+}
+div #right2{
+	float : right;
+	height : 250px;
+	width : 100%;
+	border : 1px solid black;
+	overflow  :scroll;
+}
+img.lady{
+	float : left;
+	margin: 0 0 10px 10px;
+}
+div #bulletin5{
+	margin-top : 45px;
+	height : 40px;
+	font-weight : bold;
+	color : #3399CC;
+}
+div #discussion{
+	float : left;
+	
+}
+div #r5{
+	float :right;
+}
+button{
+	color :white;
+	background-color : #3399CC;
+}
+div #bulletin6{
+	margin-top : 160px;
+	height : 220px;
+	width:550px;
+}
+
+div #r6{
+	float :left;
+	border : 1px solid black;
+}
+table{
+	border : 1px solid #3399CC;
+	width : 550px;
+	border-collapse :collapse;
+	
+}
+
+td,tr{
+	border :1px solid #3399CC;
+	
+}
+tr.head #tableHead{
+	background-color : #3399CC;
+	color : white;
+}
+tr:nth-child(odd){
+	background-color : #6699FF;
+	color : white;
+}
+tr:nth-child(even){
+	background-color : white;
+	color : #3399CC;
+}
+th.head{
+	background-color : blue;
+}
+div #r6right{
+	width : 250px;
+	height : 220px;
+	float : right;
+	border : 1px solid black;
+	overflow : scroll;
+	margin-right : 10px;
+	margin-top:-220px;
+}
+img.r6img{
+	float :left;
+	border :1px solid #6699FF;
+}
+div #r7{
+	margin-top:15px;
+	background-color : blue;
+	height  :60px;
+	color :white;
+}
+
+div #footer{
+	float:right;
+	margin-right : 10px;
+}
+table #table1{
+	float:left;
+	width:100px;
+}

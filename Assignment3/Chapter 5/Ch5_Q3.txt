@@ -1,0 +1,6 @@
+Q.3.What’s wrong with the following rule?
+   p {
+     font-size: 24;
+     }
+
+-The Problem with the above elememt rule is that the font-size value 24 has not been assigned any dimension such as '24px' or '24%'. 

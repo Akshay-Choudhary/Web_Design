@@ -1,0 +1,2 @@
+3. What keyword value can you use to turn off tiling of a background image?
+Ans: The no-repeat keyword can be used to turn off the tiling of a background image.

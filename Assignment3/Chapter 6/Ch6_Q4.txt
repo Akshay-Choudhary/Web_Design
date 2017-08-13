@@ -1,0 +1,2 @@
+4. What are the keywords that CSS offers for changing the case of text within an element?
+Ans : The values capitalize,uppercase,lowercase and none of the text-transform property changes the case of text within an element.

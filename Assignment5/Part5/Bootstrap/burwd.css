@@ -1,0 +1,45 @@
+@media screen and (min-width:920px) and (max-width:1360px)
+{
+.nav navbar-nav{
+    width: auto;
+	margin-left: 1%;
+	padding: 1% 2%;
+	display: inline-block;
+	color:white;
+	background-color:blue;
+
+}
+}
+
+@media screen and (min-width:640px) and (max-width:920px)
+{
+.hamburger{
+	display:block;
+	margin-left: .5%;
+	padding: .5%, .5%;
+	float:left;
+}
+ul.hamburger{
+	list-style: none;
+	padding: 0;
+}
+
+}
+
+@media screen and (max-width:640px){
+	.hamburger{
+	display:block;
+	margin-left: .5%;
+	padding: .5%, .5%;
+	float:left;
+}
+ul.hamburger{
+	list-style: none;
+	padding: 0;
+}
+	.nav navbar-nav pull-right{
+		display:none;
+		
+		
+	}
+}

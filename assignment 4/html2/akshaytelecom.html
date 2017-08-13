@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN"
+“http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Demo Layout</title>
+<link rel="stylesheet" type="text/css" href="2.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+    changeTheme(document.getElementById("blue"));
+});
+
+function changeTheme(element) {
+if(null != element){
+    var className = element.id;}
+	var color = 'blue';
+	color2 = '#0099FF';
+	switch(className){
+	case 'yellow':
+	color = '#E5E600';
+	color2 = '#E5E600';
+	break;
+	case 'orange':
+	color = 'orange';
+	color2 =  'orange';
+	break;
+	case 'green':
+	color = "green";
+	color2 = 'green';
+	break;
+	case 'blue':
+	color = 'blue';
+	color2 = '#0099FF';
+	break;
+	
+	}
+	var buttons =  document.getElementsByClassName('btn');
+	for(i=0; i<buttons.length; i++) {
+      buttons[i].style.border = 'none';
+    }element.style.border = '1px solid white';
+	var elements = document.getElementsByClassName('rowcolor');
+	for(i=0; i<elements.length; i++) {
+      elements[i].style.backgroundColor = color;
+    }
+	var aTr = document.getElementsByTagName("tr");
+     for(var i=0, ii=aTr.length; i<ii; i++){
+    if(i%2!=0){
+        aTr[i].style.backgroundColor = "white";
+		aTr[i].style.color = color2;
+    }else{aTr[i].style.backgroundColor = color2;
+	aTr[i].style.color = "white";
+	}
+}
+	
+}
+</script>
+</head>
+<body>
+<div class="main">
+	<div class="bulletin1">
+		<div id="heading">
+			<h1>Akshay Telecom</h1>
+		</div>
+			<div id="right">
+				<ul id="info">
+					<li class="info1">Add to favorites |</li>
+					<li class="info1">Share |</li>
+					<li class="info1">Contact the team </li>
+				</ul>
+			</div>
+	</div>
+		<div class="bulletin2 rowcolor">
+		<div class="buttons">
+			<ul id='menulist'>
+				<li  class='button'><button type='button' id='yellow' class='btn' onClick='changeTheme(this)'>Yellow</button></li>&nbsp;&nbsp;
+				<li  class='button'><button type='button' id='orange' class='btn' onClick='changeTheme(this)'>Orange</button></li>&nbsp;&nbsp;
+				<li  class='button'><button type='button' id='green' class='btn' onClick='changeTheme(this)'>Green</button></li>&nbsp;&nbsp;
+				<li  class='button'><button type='button' id='blue' class='btn' onClick='changeTheme(this)'>Blue</button></li>&nbsp;&nbsp;
+				</ul>
+		</div>
+		<div id="search">
+			<form>
+			<input type="text">
+			<button type="button" id="search">Search</button>
+			</form>
+		</div>
+		</div>
+		
+		<div class="bulletin3">
+		<div id="info1">
+			<p>Home > Project > Project Launch </p>
+		</div>
+		<div id="info2">
+			<p>Hello[login]</p>
+		</div>
+	</div>
+	<div class="bulletin4">
+		<div id="left">
+			<ul id="leftlist">
+			<li class="leftlist1 rowcolor"><img src="images/adddoc.png">Add-A-DoC<img class="b" src="images/addleft.png"></li>
+			<li class="leftlist1 rowcolor"><img src="images/add3.png">QuickNotes<img class="b" src="images/addleft.png"></li>
+			<li class="leftlist1 rowcolor"><img src="images/email.png">Email<img class="b" src="images/addleft.png"></li>
+			<li class="leftlist1 rowcolor"><img src="images/discussion.png">Discussions<img class="b" src="images/addleft.png"></li>
+			<li class="leftlist1 rowcolor"><img src="images/calendar.png">Calendar<img class="b" src="images/addleft.png"></li>
+			</ul>
+		</div>
+	<div id="r">
+		<div id="right1">
+			<div id="r1">
+				<p>Project Overview : Jane Smith</p>
+			</div>
+		
+		</div>
+
+		<div id="right2">
+				<p>Born on: July 13, 1945 - Lisbon,Portugal</p><br>
+                <p><img class="lady" src="images/jsmith.jpg">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+		</div>
+
+	</div>
+	</div>
+	<div id="bulletin5">
+		<div id="discussion">
+
+		<img src="images/discussion.png">Discussions
+		<button type="button" class="rowcolor">Add+</button>
+		</div>
+		<div id="r5">
+		<img src="images/quicknote.png">Quick Notes
+		<button type="button" class="rowcolor">Add+</button>
+		</div>
+	</div>
+	<div id="bulletin6">
+		<div id="r6">
+			<table id="table1">
+			<thead><tr class='rowcolor' id ="tableHead">
+			<th class="head">
+			Date
+			</th>
+			<th class="head">
+			Title
+			</th>
+			<th class="head">
+			Owner
+			</th>
+			</tr></thead>
+			<tr>
+			<td>
+			04/10/2015
+			</td>
+			<td>
+			asvasvdvgdgbg</td>
+			<td>Jane</td>
+			</tr>
+			<tr>
+			<td>
+			06/10/2015
+			</td>
+			<td>
+			sfcavgsd</td>
+			<td>Carie</td>
+			</tr>
+			<tr>
+			<td>
+			08/12/2015
+			</td>
+			<td>
+			vvsahvasblb</td>
+			<td>Anna</td>
+			</tr>
+			<tr>
+			<td>
+			09/26/2015
+			</td>
+			<td>
+			cbabclbasjcandasd</td>
+			<td>Rose</td>
+			</tr>
+			</table>
+		</div>
+	</div>
+	<div id="r6right">
+		<ul>
+		<li>
+		<p><img class="r6img" src='images/e5.jpg'>bdhasblcbasljbcalsbcjasbcjbasjcbalsbcjasbscsahkfhlaslfbjksfbvn</p>
+		<li>
+		<li>
+		<p><img class="r6img" src='images/e2.jpg'>bsjhbacjasbksabdgbasjbfhbsjbcfsajbfsabfkjasbf;asbfkjbsjkfbsahf</p>
+		<li>
+		<li>
+		<p><img class="r6img" src='images/e1.jpg'>ndjasbcb;ajsbbsabbsubfusb;fsfvsfvsafvaksvfsvflvfsvfhasvfv</p>
+		<li>
+		</ul>
+    </div>
+	<div class="rowcolor" id="r7">
+		<div id="footer"><p>All content is for real only</p></div>
+	</div>
+</div>
+</body>
+</html>
