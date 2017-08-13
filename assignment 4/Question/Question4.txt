@@ -1,0 +1,9 @@
+PART 1 - READING
+ - Beginning CSS - Ch 9. Page Layout
+
+PART 2 - Create the attached layout using CSS. Your page doesn't need to be identical to the attached layout. It may use different colors, different icons as long as the layout is the same, or almost the same.
+
+PART 3 - Redo HW-Part3, Stanford Website, using CSS layout.
+
+PART 4 - Create the following page using GridLayout that we discussed in the class. Replace the animation with just one image from the animation using Snipping Tool, or any screen capture, and no need to implement sub menu items, and fancy animation, and hover effects. 
+http://www.bu.edu

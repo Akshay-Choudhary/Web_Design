@@ -1,0 +1,24 @@
+PART 1 - Reading Assignment (Beginning HTML and CSS)
+ Chapter 7: Cascading Style Sheets
+ Chapter 8: More Cascading Style Sheets
+
+PART 2 - Progamming Assignment
+ - Do all the exercises at the end of Ch7 and Ch8
+
+PART 3 - Reading Assignment (Beginning CSS)
+ Chapter 5: Applying Font Faces
+ Chapter 6: Manipulating the Display of Text
+ Chapter 7: Background Colors and Images
+
+PART 4 - Progamming Assignment
+ - Do all the exercises at the end of Ch5, Ch6 and Ch7
+
+PART 5 - Programming Assignment (TO BE UPLAODED TO COE SERVERS)
+Create 3 HTML pages that use each selector at least once.
+You don't need a composition or a complete page.
+You could put random sentences, images, or paragraphs on the same page.
+Page-1 will only include CSS1 selectors.
+Page-2 will only include CSS2 selectors.
+Page-3 will only include CSS3 selectors.
+Here is a list of selectors that you need to use:
+http://www.w3schools.com/cssref/css_selectors.asp

@@ -1,0 +1,18 @@
+PART 1 - READING ASSIGNMENT (Beginning CSS - Attached)
+   Ch 4. The Cascade and Inheritance
+   Ch 9. Floating and Vertical Alignment
+   Ch 11. Positioning
+
+PART 2 - Do all the exercises at the end of Chapter 4, 9, and 11
+
+PART 3 - Reading Assignment
+   http://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste
+
+PART 4 - Programming - To be uploaded to COE Servers
+   Redo HW4-Part3 (Stanford website) to make it responsive. Assume 3 breakpoints (>992px, >768px, <768px), and decide what needs to be displayed/hidden/scaled at each breakpoint.
+
+PART 5 - Programming - To be uploaded to COE Servers
+   Redo HW4-Part4 (Boston University website) using BootStrap and make it responsive. Use 4 breakpoints with grids col-lg-N, col-md-N, col-sm-N, col-xs-N.
+
+PART 6 - Programming - To be uploaded to COE Servers
+   Redo HW2-Part5 (Northeastern University After Hours Event Registration Form) using BootStrap form elements.

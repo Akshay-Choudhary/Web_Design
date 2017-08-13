@@ -1,0 +1,17 @@
+PART 1. Read the following chapters (Beginning HTML)
+  Chapter 3: Images and Objects
+  Chapter 4: Tables
+  Chapter 5: Forms
+  Chapter 6: Frames
+
+PART 2. Do all the exercises at the end of these chapters
+
+PART 3. Using tables (I know tables should not be used to create layouts) create http://www.stanford.edu website (try to create a similar layout which doesn't need to be exactly the same as the official website. You could ignore animations, just use an image instead of the animation, and ignore the sub-menus; just use the top-level menu items to make it simpler), and upload to COE. Just provide the link of the site when submitting.
+
+PART 4. Create a personal website that uses frames (I know frames are no longer used). You could use a menu in one frame, and content in the other frame. Upload your site to COE servers, and provide the link of the site when submitting.
+
+PART 5. Convert the Following PDF Form to HTML Form.
+HTML Form doesn't need to be 100% identical to the PDF form. Design the form the way you like; you could change the layout as you wish. This would be a web-based form to be submitted via online, so it may be different from the paper form.
+For example, in the paper-based form, there is a table to write some information, but in the web-based form user cannot write into the table cells; a form element needs to be used. Upload your site to COE servers, and provide the link of the site when submitting.
+-- Form is on page 9 of the PDF file --
+https://www.northeastern.edu/conferences/pdf/afterHOURS20101.pdf
